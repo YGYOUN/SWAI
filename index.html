@@ -777,18 +777,18 @@
                 body: JSON.stringify({ csv: csvData }),
             })
             .then(response => {
-                if (!response.ok) {
+                /*if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
-                }
+                }*/
                 return response.json(); // Ensure the response is valid JSON
             })
             .then(data => {
                 displayData(data);
             })
-            .catch(error => {
+            /*.catch(error => {
                 console.error('Error:', error.message);
                 alert('데이터 처리 중 오류가 발생했습니다: ' + error.message);
-            });
+            });*/
         }
     
         // 서버에서 받은 데이터를 화면에 표시
