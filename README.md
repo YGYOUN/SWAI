@@ -1,6 +1,7 @@
 /* 소프트웨어 실행 구조 계획
 
 프로젝트 폴더 SW_AI
+/n
 ㄴfeatures 폴더(
   ㄴ__init__.py
     _base.py
