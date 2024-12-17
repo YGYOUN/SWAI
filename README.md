@@ -1,7 +1,9 @@
 /* 소프트웨어 실행 구조 계획
 
 프로젝트 폴더 SW_AI
-ㄴfeatures 폴더(
+
+ㄴfeatures 폴더
+
   ㄴ__init__.py
     _base.py
     app.py(Flask 서버를 통해 외부 API로부터 raw data를 받아와, 프론트에서 만든 db의 주문날짜/시간이 일치하는 row만 추려내어 열 단위로 합쳐 db화)
