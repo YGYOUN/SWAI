@@ -44,4 +44,4 @@ index.html
 app.py
 (현재는 flask 서버를 통해 yfinance api로부터 rawdata를 받아 프런트에서 전송한 db에 진입날짜/시간에 맞는 row를 추출하여 db에 합치는 역할을 담당, 추후에는 features 폴더 안으로 이동 예정)
 
-이외의 폴더, 파일은 템플릿 관련이며, 24.12.17. 현재는 SW_AI 프로젝트 폴더의 index.html, app.py 외의 폴더 및 파일은 비어있는 상태 */
+이외의 폴더, 파일은 템플릿 관련이며, 24.12.17. 현재는 SW_AI 프로젝트 폴더의 index.html, app.py 외의 폴더 및 파일은 구현되어 있지않은 상태 */
