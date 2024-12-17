@@ -15,6 +15,7 @@
     (db화 한 데이터에서 function 폴더안의 보조지표 수치 계산 함수들을 실행하고 수치값을 db에 추가)
     
 ㄴfunctions 폴더
+
   ㄴ__init__.py
   
     _base.py
